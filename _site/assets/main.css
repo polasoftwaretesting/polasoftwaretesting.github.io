@@ -1,3 +1,4 @@
+/*$on-phone:         812px !default;*/
 /**
  * Reset some basic elements
  */
@@ -122,7 +123,7 @@ pre {
   margin-left: auto;
   padding-right: 50px;
   padding-left: 50px; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1024px) {
     .wrapper {
       max-width: -webkit-calc(800px - (50px));
       max-width: calc(800px - (50px));
@@ -157,6 +158,13 @@ pre {
 .site-header {
   min-height: 93.25px;
   position: relative; }
+  .site-header .header-image {
+    height: 70%;
+    width: 70%; }
+  @media screen and (max-width: 600px) {
+    .site-header .header-image {
+      height: 85%;
+      width: 85%; } }
 
 .site-title {
   font-size: 26px;
@@ -187,6 +195,7 @@ pre {
       top: 9px;
       right: 25px;
       background-color: #fdfdfd;
+      /*border: 1px solid $grey-color-light;*/
       border-radius: 5px;
       text-align: right; }
       .site-nav label[for="nav-trigger"] {
@@ -257,7 +266,7 @@ pre {
   width: -webkit-calc(45% - (50px / 2));
   width: calc(45% - (50px / 2)); }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (50px / 2));
@@ -275,7 +284,8 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 50px 0; }
+  padding: 50px 0;
+  padding-top: 25px; }
 
 .page-heading {
   font-size: 20px; }
@@ -303,9 +313,14 @@ pre {
   .contact h2 {
     font-weight: bold;
     font-size: 20px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 600px) {
       .contact h2 {
-        font-size: 28px; } }
+        font-size: 17.6px; } }
+  @media screen and (max-width: 600px) {
+    .contact {
+      font-size: 12.32px; }
+      .contact .email-image {
+        height: 18px; } }
 
 .contact-header {
   text-align: center; }
@@ -321,7 +336,7 @@ pre {
   letter-spacing: -1px;
   line-height: 1.1;
   text-align: justify; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1024px) {
     .post-title {
       font-size: 36px; } }
 
@@ -330,17 +345,17 @@ pre {
   text-align: justify; }
   .post-content h2 {
     font-size: 32px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1024px) {
       .post-content h2 {
         font-size: 28px; } }
   .post-content h3 {
     font-size: 26px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1024px) {
       .post-content h3 {
         font-size: 22px; } }
   .post-content h4 {
     font-size: 20px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1024px) {
       .post-content h4 {
         font-size: 18px; } }
 

@@ -21,11 +21,12 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 // Width of the content area
 $content-width:    800px !default;
 
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
+/*$on-phone:         812px !default;*/
+$on-phone:          600px !default;
+$on-laptop:        1024px !default;
 
 // Use media queries like this:
-// @include media-query($on-palm) {
+// @include media-query($on-phone) {
 //   .wrapper {
 //     padding-right: $spacing-unit / 2;
 //     padding-left: $spacing-unit / 2;

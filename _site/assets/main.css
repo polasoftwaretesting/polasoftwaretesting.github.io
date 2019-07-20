@@ -159,8 +159,8 @@ pre {
   min-height: 93.25px;
   position: relative; }
   .site-header .header-image {
-    height: 60%;
-    width: 60%; }
+    height: 70%;
+    width: 70%; }
   @media screen and (max-width: 600px) {
     .site-header .header-image {
       height: 85%;
